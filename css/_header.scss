@@ -1,0 +1,29 @@
+header {
+    @media #{$small} {
+        padding: 50px;
+        text-align: center;
+        .desc {
+            width: 370px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    padding: 30px 20px;
+    h1 {
+        font-size: 30px;
+        color: $h1color;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 30px;
+        color: $titlecolor;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .desc {
+        font-size: 12px;
+        font-weight: 400;
+        color: $h1color;
+    }
+}

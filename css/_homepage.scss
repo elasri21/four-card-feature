@@ -1,0 +1,59 @@
+.page {
+    @media #{$small} {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .body-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .item {
+                max-width: 300px;
+                margin-right: 20px;
+                margin-bottom: 0;
+                &.two {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    padding: 30px 20px;
+    .body-section {
+        .item {
+            position: relative;
+            background-color: $white;
+            padding: 20px;
+            border-top: 3px solid;
+            border-radius: 6px;
+            height: 200px;
+            box-shadow: 5px 5px 15px $h1color;
+            margin-bottom: 20px;
+            &.one {
+                border-top-color: $cyan;
+            }
+            &.two {
+                border-top-color: $red;
+            }
+            &.three {
+                border-top-color: $orange;
+            }
+            &.four {
+                border-top-color: $blue;
+                margin-right: 0;
+            }
+            h3 {
+                font-weight: 600;
+                color: $titlecolor;
+            }
+            p {
+                font-size: 12px;
+                font-weight: 400;
+                color: $h1color;
+            }
+            img {
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+            }
+        }
+    }
+}

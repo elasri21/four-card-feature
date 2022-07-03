@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: #fafafa;
+}
+
+header {
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  header {
+    padding: 50px;
+    text-align: center;
+  }
+  header .desc {
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+header h1 {
+  font-size: 30px;
+  color: #a3a5ae;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+header h2 {
+  font-size: 30px;
+  color: #4c4e61;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+header .desc {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a3a5ae;
+}
+
+.page {
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .page .body-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page .body-section .item {
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .page .body-section .item.two {
+    margin-bottom: 20px;
+  }
+}
+.page .body-section .item {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-top: 3px solid;
+  border-radius: 6px;
+  height: 200px;
+  box-shadow: 5px 5px 15px #a3a5ae;
+  margin-bottom: 20px;
+}
+.page .body-section .item.one {
+  border-top-color: #45d3d3;
+}
+.page .body-section .item.two {
+  border-top-color: #ea5353;
+}
+.page .body-section .item.three {
+  border-top-color: #fcaf4a;
+}
+.page .body-section .item.four {
+  border-top-color: #549ef2;
+  margin-right: 0;
+}
+.page .body-section .item h3 {
+  font-weight: 600;
+  color: #4c4e61;
+}
+.page .body-section .item p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a3a5ae;
+}
+.page .body-section .item img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=main.css.map */
